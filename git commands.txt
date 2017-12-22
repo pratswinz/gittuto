@@ -1,5 +1,6 @@
 git init
 
+
 git config --global user.name 'pratswinz'init
 
 git config --global user.email 'prateekonline3030@gmail.com'
@@ -11,3 +12,30 @@ git status
 remove caced file : git rm --cached index.html
 
 add files with extension : git add *.html
+
+add all files : git add .
+
+
+
+to commit files: git commit
+the above will open editable file area where we need to hit insert and give comments for the commit whaterver string
+
+
+
+
+to commit wit insert mode : git commit -m "comment"
+
+
+
+files and folders which we do not want to add to the repository or do the commit for those files
+create .gitignore file and add the file name which you dont want to add to github
+
+
+also the same as above you can do with the folders  as well by adding the directory name in .gitignore file like : 
+/directoryName 
+
+
+ can also use wildcards with file extensions and names of files
+
+
+ 

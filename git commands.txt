@@ -1,0 +1,13 @@
+git init
+
+git config --global user.name 'pratswinz'init
+
+git config --global user.email 'prateekonline3030@gmail.com'
+
+git add index.html
+
+git status
+
+remove caced file : git rm --cached index.html
+
+add files with extension : git add *.html
